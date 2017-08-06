@@ -84,6 +84,22 @@ networking. It tells ArduPilot to announce itself as a MAVLink device
 on those two networks. It will pick up the first MAVLink capable
 ground station that connects on UDP port 14550 on those networks.
 
+Installation with Firmware 1.4.1  
+---------
+
+- init.d script and start_ardupilot.sh modifications are not necessary
+
+- Upload arduplane firmware to  /data/ftp/internal_000/ardupilot
+
+- Make the file arduplane executable with telnet connection (telnet 192.168.42.1, then change directory to /data/ftp/internal_000/ardupilot, chmod +x arduplane)
+
+- Press 3 times power button, it will flash red and blue then slowly yellow with a nice motor ringtone.
+
+- Configure your Parrot Disco before flying
+
+..  youtube:: EjYlKvjCs7M
+    :width: 100%
+
 Ground Station
 ==============
 
